@@ -1,0 +1,13 @@
+# Core dependencies for Velomenaj pipeline
+pyspark>=3.5.3
+PyYAML>=6.0
+
+# Spatial operations (WKT geometry handling)
+shapely>=2.0
+
+# Jupyter notebook development
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Future: Data quality validation
+# great-expectations>=0.18.0

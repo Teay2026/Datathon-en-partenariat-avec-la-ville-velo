@@ -1,0 +1,56 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+.overlay-title {
+    position: absolute;
+    top: 20px;
+    left: 60px; /* Offset for zoom controls usually */
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.overlay-title h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.overlay-title p {
+    margin: 5px 0 0;
+    color: #666;
+}
+
+.legend {
+    line-height: 18px;
+    color: #555;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+/* Tooltip custom style */
+.leaflet-popup-content {
+    font-size: 14px;
+    line-height: 1.4;
+}

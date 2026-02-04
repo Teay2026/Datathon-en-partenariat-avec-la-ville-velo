@@ -1,0 +1,42 @@
+[
+  {
+    "typeamenagement": "Goulotte ou rampe",
+    "avg_score": 0.57445675,
+    "avg_volume": 0.0
+  },
+  {
+    "typeamenagement": "Chauss\u00e9e \u00e0 voie centrale banalis\u00e9e (CVCB)",
+    "avg_score": 0.535855,
+    "avg_volume": 892.088122605364
+  },
+  {
+    "typeamenagement": "Piste Cyclable",
+    "avg_score": 0.5296212133333333,
+    "avg_volume": 1317.5077555541718
+  },
+  {
+    "typeamenagement": "Double sens cyclable",
+    "avg_score": 0.5087983802816901,
+    "avg_volume": 1671.22470131628
+  },
+  {
+    "typeamenagement": "Couloir bus v\u00e9lo non \u00e9largi",
+    "avg_score": 0.49239018918918925,
+    "avg_volume": 1151.943912275219
+  },
+  {
+    "typeamenagement": "Couloir bus v\u00e9lo \u00e9largi",
+    "avg_score": 0.4805716666666666,
+    "avg_volume": 0.0
+  },
+  {
+    "typeamenagement": "Bande Cyclable",
+    "avg_score": 0.46410258490566036,
+    "avg_volume": 1137.96026890296
+  },
+  {
+    "typeamenagement": "Voie verte",
+    "avg_score": 0.4063759866666667,
+    "avg_volume": 1201.2357373797618
+  }
+]

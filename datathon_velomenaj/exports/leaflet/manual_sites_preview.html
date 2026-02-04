@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0878ba952456267f4c26a87c213aaadd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0878ba952456267f4c26a87c213aaadd" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0878ba952456267f4c26a87c213aaadd = L.map(
+                "map_0878ba952456267f4c26a87c213aaadd",
+                {
+                    center: [45.77, 4.83],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7b670c0b4dea0fbd93728071eb6fee9a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7b670c0b4dea0fbd93728071eb6fee9a.addTo(map_0878ba952456267f4c26a87c213aaadd);
+        
+    
+            var marker_9fdcd85a88d159c691d5ae6f2cc6f8a0 = L.marker(
+                [45.793716, 4.8635606],
+                {
+}
+            ).addTo(map_0878ba952456267f4c26a87c213aaadd);
+        
+    
+        var popup_73af493defc69fb35c72fc40babe3859 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cdeb2e040a2008764eeb4c69ebb6e973 = $(`<div id="html_cdeb2e040a2008764eeb4c69ebb6e973" style="width: 100.0%; height: 100.0%;">             <b>Avenue des Cottages</b><br>             status: ok<br>             Avenue des Cottages, Vassieux, Caluire-et-Cuire, Lyon, Métropole de Lyon, Rhône, Auvergne-Rhône-Alpes, France métropolitaine, 69300, France             </div>`)[0];
+                popup_73af493defc69fb35c72fc40babe3859.setContent(html_cdeb2e040a2008764eeb4c69ebb6e973);
+            
+        
+
+        marker_9fdcd85a88d159c691d5ae6f2cc6f8a0.bindPopup(popup_73af493defc69fb35c72fc40babe3859)
+        ;
+
+        
+    
+    
+            var marker_20437a784f5171e80176af6b099c8841 = L.marker(
+                [45.7737583, 4.838225],
+                {
+}
+            ).addTo(map_0878ba952456267f4c26a87c213aaadd);
+        
+    
+        var popup_224b314ff7097e92e7460de44bc535fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c328f5ecca4e0f78895f1d6b32cb2f1 = $(`<div id="html_5c328f5ecca4e0f78895f1d6b32cb2f1" style="width: 100.0%; height: 100.0%;">             <b>Bas Montée Bonnafous</b><br>             status: hardcoded<br>             nan             </div>`)[0];
+                popup_224b314ff7097e92e7460de44bc535fb.setContent(html_5c328f5ecca4e0f78895f1d6b32cb2f1);
+            
+        
+
+        marker_20437a784f5171e80176af6b099c8841.bindPopup(popup_224b314ff7097e92e7460de44bc535fb)
+        ;
+
+        
+    
+    
+            var marker_9cafea2f0d2f53ab4d2d7944f19d9a5b = L.marker(
+                [45.7719693, 4.8352688],
+                {
+}
+            ).addTo(map_0878ba952456267f4c26a87c213aaadd);
+        
+    
+        var popup_5aff71266748cd459b6cc2b1391aa582 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c6769b8eb89a0a1cc3c6442f2f17b0d = $(`<div id="html_7c6769b8eb89a0a1cc3c6442f2f17b0d" style="width: 100.0%; height: 100.0%;">             <b>Bas Montée St Sébastien</b><br>             status: ok_fallback<br>             Montée Saint-Sébastien, Pentes de la Croix-Rousse, Lyon 1er Arrondissement, Lyon, Métropole de Lyon, Rhône, Auvergne-Rhône-Alpes, France métropolitaine, 69001, France             </div>`)[0];
+                popup_5aff71266748cd459b6cc2b1391aa582.setContent(html_7c6769b8eb89a0a1cc3c6442f2f17b0d);
+            
+        
+
+        marker_9cafea2f0d2f53ab4d2d7944f19d9a5b.bindPopup(popup_5aff71266748cd459b6cc2b1391aa582)
+        ;
+
+        
+    
+    
+            var marker_86c4d1b093704f49fe2e763b4169ed96 = L.marker(
+                [45.7940321, 4.8282233],
+                {
+}
+            ).addTo(map_0878ba952456267f4c26a87c213aaadd);
+        
+    
+        var popup_181d4212456a1172c5fb7f2ad15a0b5c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4345387d4dc74d179be5ff812dfe834 = $(`<div id="html_f4345387d4dc74d179be5ff812dfe834" style="width: 100.0%; height: 100.0%;">             <b>Bas Montée des Forts</b><br>             status: ok<br>             Cuire le bas, Montée des Forts, Cuire le Bas, Caluire-et-Cuire, Lyon, Métropole de Lyon, Rhône, Auvergne-Rhône-Alpes, France métropolitaine, 69300, France             </div>`)[0];
+                popup_181d4212456a1172c5fb7f2ad15a0b5c.setContent(html_f4345387d4dc74d179be5ff812dfe834);
+            
+        
+
+        marker_86c4d1b093704f49fe2e763b4169ed96.bindPopup(popup_181d4212456a1172c5fb7f2ad15a0b5c)
+        ;
+
+        
+    
+    
+            var marker_51db270da1cc9f58683d1fd2749f1ee4 = L.marker(
+                [45.7767543, 4.8291258],
+                {
+}
+            ).addTo(map_0878ba952456267f4c26a87c213aaadd);
+        
+    
+        var popup_447ba926da8ffc1b69c7fce69c12af19 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e4b786a28e30a4dfbe139da4830315b = $(`<div id="html_4e4b786a28e30a4dfbe139da4830315b" style="width: 100.0%; height: 100.0%;">             <b>Bvd des Canuts</b><br>             status: ok_fallback<br>             Boulevard des Canuts, La Croix-Rousse, Lyon 4e Arrondissement, Lyon, Métropole de Lyon, Rhône, Auvergne-Rhône-Alpes, France métropolitaine, 69004, France             </div>`)[0];
+                popup_447ba926da8ffc1b69c7fce69c12af19.setContent(html_4e4b786a28e30a4dfbe139da4830315b);
+            
+        
+
+        marker_51db270da1cc9f58683d1fd2749f1ee4.bindPopup(popup_447ba926da8ffc1b69c7fce69c12af19)
+        ;
+
+        
+    
+    
+            var marker_b2359d954bbddf95379f3c138eb9dfe5 = L.marker(
+                [45.7981476, 4.8517956],
+                {
+}
+            ).addTo(map_0878ba952456267f4c26a87c213aaadd);
+        
+    
+        var popup_7919366ef53aefc7dda16e9d4586de24 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba53ae62f5991e56dff6ec89170dfe5d = $(`<div id="html_ba53ae62f5991e56dff6ec89170dfe5d" style="width: 100.0%; height: 100.0%;">             <b>Carrefour St Clair</b><br>             status: ok_fallback<br>             Stéphane Plaza, 2, Montée des Soldats, Vassieux, Caluire-et-Cuire, Lyon, Métropole de Lyon, Rhône, Auvergne-Rhône-Alpes, France métropolitaine, 69300, France             </div>`)[0];
+                popup_7919366ef53aefc7dda16e9d4586de24.setContent(html_ba53ae62f5991e56dff6ec89170dfe5d);
+            
+        
+
+        marker_b2359d954bbddf95379f3c138eb9dfe5.bindPopup(popup_7919366ef53aefc7dda16e9d4586de24)
+        ;
+
+        
+    
+    
+            var marker_0007b3c625fb4859682910f463877e96 = L.marker(
+                [45.7734681, 4.8377771],
+                {
+}
+            ).addTo(map_0878ba952456267f4c26a87c213aaadd);
+        
+    
+        var popup_8e80a7e7832f4f0f337dfbab57c40997 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_655eddeba7e875e4e73f4651a7b137fb = $(`<div id="html_655eddeba7e875e4e73f4651a7b137fb" style="width: 100.0%; height: 100.0%;">             <b>Croisement Bonnafous/Herbouville</b><br>             status: ok_fallback<br>             Place Louis Chazette, Pentes de la Croix-Rousse, Lyon 1er Arrondissement, Lyon, Métropole de Lyon, Rhône, Auvergne-Rhône-Alpes, France métropolitaine, 69001, France             </div>`)[0];
+                popup_8e80a7e7832f4f0f337dfbab57c40997.setContent(html_655eddeba7e875e4e73f4651a7b137fb);
+            
+        
+
+        marker_0007b3c625fb4859682910f463877e96.bindPopup(popup_8e80a7e7832f4f0f337dfbab57c40997)
+        ;
+
+        
+    
+    
+            var marker_9691765e9dd650acd3922bf5b03bd656 = L.marker(
+                [45.8040361, 4.8919034],
+                {
+}
+            ).addTo(map_0878ba952456267f4c26a87c213aaadd);
+        
+    
+        var popup_f664be5541cdbd6165701c0cf24f90d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df3799c8da2fc5fd94c80d7efb046ff4 = $(`<div id="html_df3799c8da2fc5fd94c80d7efb046ff4" style="width: 100.0%; height: 100.0%;">             <b>Gare de Crépieux</b><br>             status: ok<br>             Gare De Crepieux, Chemin des Îles, Crépieux, Crépieux-la-Pape, Rillieux-la-Pape, Lyon, Métropole de Lyon, Rhône, Auvergne-Rhône-Alpes, France métropolitaine, 69140, France             </div>`)[0];
+                popup_f664be5541cdbd6165701c0cf24f90d9.setContent(html_df3799c8da2fc5fd94c80d7efb046ff4);
+            
+        
+
+        marker_9691765e9dd650acd3922bf5b03bd656.bindPopup(popup_f664be5541cdbd6165701c0cf24f90d9)
+        ;
+
+        
+    
+    
+            var marker_e3e9f88bfcdabd9cd13a7cc6274a48df = L.marker(
+                [45.7167716, 4.7994648],
+                {
+}
+            ).addTo(map_0878ba952456267f4c26a87c213aaadd);
+        
+    
+        var popup_9f559112f136d36daa10325b8ca45dc6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc777805429fee07d5e5d7311a6f0cf0 = $(`<div id="html_cc777805429fee07d5e5d7311a6f0cf0" style="width: 100.0%; height: 100.0%;">             <b>La Buissière</b><br>             status: ok<br>             La Buissière, La Glacière, Oullins, Oullins-Pierre-Bénite, Lyon, Métropole de Lyon, Rhône, Auvergne-Rhône-Alpes, France métropolitaine, 69600, France             </div>`)[0];
+                popup_9f559112f136d36daa10325b8ca45dc6.setContent(html_cc777805429fee07d5e5d7311a6f0cf0);
+            
+        
+
+        marker_e3e9f88bfcdabd9cd13a7cc6274a48df.bindPopup(popup_9f559112f136d36daa10325b8ca45dc6)
+        ;
+
+        
+    
+    
+            var marker_d162a74763abf5b7cc50897f35720f1c = L.marker(
+                [45.8010069, 4.8536232],
+                {
+}
+            ).addTo(map_0878ba952456267f4c26a87c213aaadd);
+        
+    
+        var popup_96cab1c5d1326cc323d1ce5cde4e5d7a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8972119db84a936341db9a9441188d45 = $(`<div id="html_8972119db84a936341db9a9441188d45" style="width: 100.0%; height: 100.0%;">             <b>Maison de la Voie Verte</b><br>             status: ok<br>             Maison de la Voie Verte, Voie de la Dombes, Le Vernay, Caluire-et-Cuire, Lyon, Métropole de Lyon, Rhône, Auvergne-Rhône-Alpes, France métropolitaine, 69300, France             </div>`)[0];
+                popup_96cab1c5d1326cc323d1ce5cde4e5d7a.setContent(html_8972119db84a936341db9a9441188d45);
+            
+        
+
+        marker_d162a74763abf5b7cc50897f35720f1c.bindPopup(popup_96cab1c5d1326cc323d1ce5cde4e5d7a)
+        ;
+
+        
+    
+    
+            var marker_485015bcc7e6f2eb12289fa9321986b8 = L.marker(
+                [45.8010069, 4.8536232],
+                {
+}
+            ).addTo(map_0878ba952456267f4c26a87c213aaadd);
+        
+    
+        var popup_1ec6b7e1c7ec77d5d531a2ba821c730e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e410afc55dc8128752106c0c97eac63 = $(`<div id="html_1e410afc55dc8128752106c0c97eac63" style="width: 100.0%; height: 100.0%;">             <b>Maison de la voie verte</b><br>             status: ok<br>             Maison de la Voie Verte, Voie de la Dombes, Le Vernay, Caluire-et-Cuire, Lyon, Métropole de Lyon, Rhône, Auvergne-Rhône-Alpes, France métropolitaine, 69300, France             </div>`)[0];
+                popup_1ec6b7e1c7ec77d5d531a2ba821c730e.setContent(html_1e410afc55dc8128752106c0c97eac63);
+            
+        
+
+        marker_485015bcc7e6f2eb12289fa9321986b8.bindPopup(popup_1ec6b7e1c7ec77d5d531a2ba821c730e)
+        ;
+
+        
+    
+    
+            var marker_531089345f533af575991e9fe061d9ca = L.marker(
+                [45.783728, 4.841839],
+                {
+}
+            ).addTo(map_0878ba952456267f4c26a87c213aaadd);
+        
+    
+        var popup_e60f7ff23c7da0cb76de5f2d06be6cfb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f221d84866289de3a4f0accfa41bf01 = $(`<div id="html_5f221d84866289de3a4f0accfa41bf01" style="width: 100.0%; height: 100.0%;">             <b>Margnolles / Oratoire</b><br>             status: ok_fallback<br>             6, Rue de l'Oratoire, Bissardon, Caluire-et-Cuire, Lyon, Métropole de Lyon, Rhône, Auvergne-Rhône-Alpes, France métropolitaine, 69300, France             </div>`)[0];
+                popup_e60f7ff23c7da0cb76de5f2d06be6cfb.setContent(html_5f221d84866289de3a4f0accfa41bf01);
+            
+        
+
+        marker_531089345f533af575991e9fe061d9ca.bindPopup(popup_e60f7ff23c7da0cb76de5f2d06be6cfb)
+        ;
+
+        
+    
+    
+            var marker_cc8a95baa73ed5e675e436a8fbe00ea2 = L.marker(
+                [45.8291423, 4.8796227],
+                {
+}
+            ).addTo(map_0878ba952456267f4c26a87c213aaadd);
+        
+    
+        var popup_1e4267c8789733864da4c7587979974b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_54ccd1c59ac097260e70b8d3ae693f66 = $(`<div id="html_54ccd1c59ac097260e70b8d3ae693f66" style="width: 100.0%; height: 100.0%;">             <b>Montée Sathonay Village</b><br>             status: ok<br>             Montée du Village, Sathonay-Village, Lyon, Métropole de Lyon, Rhône, Auvergne-Rhône-Alpes, France métropolitaine, 69580, France             </div>`)[0];
+                popup_1e4267c8789733864da4c7587979974b.setContent(html_54ccd1c59ac097260e70b8d3ae693f66);
+            
+        
+
+        marker_cc8a95baa73ed5e675e436a8fbe00ea2.bindPopup(popup_1e4267c8789733864da4c7587979974b)
+        ;
+
+        
+    
+    
+            var marker_7c782493127144929d74283e903091be = L.marker(
+                [45.7833984, 4.8333097],
+                {
+}
+            ).addTo(map_0878ba952456267f4c26a87c213aaadd);
+        
+    
+        var popup_918cc58f804bd7cefbc42863aaac4847 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ca3bc9d803e9dce423e6473720eb622 = $(`<div id="html_2ca3bc9d803e9dce423e6473720eb622" style="width: 100.0%; height: 100.0%;">             <b>Montée de la Boucle</b><br>             status: ok<br>             Montée de la Boucle, Cuire le Haut, Caluire-et-Cuire, Lyon, Métropole de Lyon, Rhône, Auvergne-Rhône-Alpes, France métropolitaine, 69300, France             </div>`)[0];
+                popup_918cc58f804bd7cefbc42863aaac4847.setContent(html_2ca3bc9d803e9dce423e6473720eb622);
+            
+        
+
+        marker_7c782493127144929d74283e903091be.bindPopup(popup_918cc58f804bd7cefbc42863aaac4847)
+        ;
+
+        
+    
+    
+            var marker_255d54a05f2d76a4c56bd2b8e4e7917c = L.marker(
+                [45.7870227, 4.85453],
+                {
+}
+            ).addTo(map_0878ba952456267f4c26a87c213aaadd);
+        
+    
+        var popup_0721ba66bd244d83d51172311c2ffba1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b5ba499cd66d900381f610db46794465 = $(`<div id="html_b5ba499cd66d900381f610db46794465" style="width: 100.0%; height: 100.0%;">             <b>Passerelle de la Paix</b><br>             status: ok<br>             Passerelle de la Paix, Cité Internationale, Lyon 6e Arrondissement, Lyon, Métropole de Lyon, Rhône, Auvergne-Rhône-Alpes, France métropolitaine, 69006, France             </div>`)[0];
+                popup_0721ba66bd244d83d51172311c2ffba1.setContent(html_b5ba499cd66d900381f610db46794465);
+            
+        
+
+        marker_255d54a05f2d76a4c56bd2b8e4e7917c.bindPopup(popup_0721ba66bd244d83d51172311c2ffba1)
+        ;
+
+        
+    
+    
+            var marker_c056e81493afa948a985ef5f36f0022d = L.marker(
+                [45.8155609, 4.8874948],
+                {
+}
+            ).addTo(map_0878ba952456267f4c26a87c213aaadd);
+        
+    
+        var popup_40b0bb4f51c02cf98aa5de6b4580fa98 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ada9442b26f24a0a2fdc680210541ea = $(`<div id="html_6ada9442b26f24a0a2fdc680210541ea" style="width: 100.0%; height: 100.0%;">             <b>Piscine Loup Pendu</b><br>             status: ok<br>             Piscine Loup Pendu, Avenue du Loup Pendu, Mercières Victor Hugo Loup Pendu, Crépieux-la-Pape, Rillieux-la-Pape, Lyon, Métropole de Lyon, Rhône, Auvergne-Rhône-Alpes, France métropolitaine, 69140, France             </div>`)[0];
+                popup_40b0bb4f51c02cf98aa5de6b4580fa98.setContent(html_6ada9442b26f24a0a2fdc680210541ea);
+            
+        
+
+        marker_c056e81493afa948a985ef5f36f0022d.bindPopup(popup_40b0bb4f51c02cf98aa5de6b4580fa98)
+        ;
+
+        
+    
+    
+            var marker_611193008beb10b98800c3c98dcb42ee = L.marker(
+                [45.8323216, 4.8486527],
+                {
+}
+            ).addTo(map_0878ba952456267f4c26a87c213aaadd);
+        
+    
+        var popup_a3aad63b009a5b4c55f548473364b5b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df8ac4ea8a6b20574e19330e02db05e1 = $(`<div id="html_df8ac4ea8a6b20574e19330e02db05e1" style="width: 100.0%; height: 100.0%;">             <b>Pont Fontaines RG</b><br>             status: ok_fallback<br>             Pont Général Leclerc, Fontaines-sur-Saône, Lyon, Métropole de Lyon, Rhône, Auvergne-Rhône-Alpes, France métropolitaine, 69270, France             </div>`)[0];
+                popup_a3aad63b009a5b4c55f548473364b5b3.setContent(html_df8ac4ea8a6b20574e19330e02db05e1);
+            
+        
+
+        marker_611193008beb10b98800c3c98dcb42ee.bindPopup(popup_a3aad63b009a5b4c55f548473364b5b3)
+        ;
+
+        
+    
+    
+            var marker_290c537545f7fb3e034e532028a679b9 = L.marker(
+                [45.7965358, 4.8314458],
+                {
+}
+            ).addTo(map_0878ba952456267f4c26a87c213aaadd);
+        
+    
+        var popup_364da636006a92d9101be28a39c70919 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1968e518f60717d9f07b1618bf55d654 = $(`<div id="html_1968e518f60717d9f07b1618bf55d654" style="width: 100.0%; height: 100.0%;">             <b>Pont Ile Barbe</b><br>             status: ok<br>             Pont de l'Île Barbe, La Sauvagère, Saint-Rambert, Lyon 9e Arrondissement, Lyon, Métropole de Lyon, Rhône, Auvergne-Rhône-Alpes, France métropolitaine, 69009, France             </div>`)[0];
+                popup_364da636006a92d9101be28a39c70919.setContent(html_1968e518f60717d9f07b1618bf55d654);
+            
+        
+
+        marker_290c537545f7fb3e034e532028a679b9.bindPopup(popup_364da636006a92d9101be28a39c70919)
+        ;
+
+        
+    
+    
+            var marker_74379604d0a462da611de7409737f5e6 = L.marker(
+                [45.7864909, 4.8603552],
+                {
+}
+            ).addTo(map_0878ba952456267f4c26a87c213aaadd);
+        
+    
+        var popup_e86ae777a851db54a8a719483810a389 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_093fa7e409fc3770691ce12a2d58ef31 = $(`<div id="html_093fa7e409fc3770691ce12a2d58ef31" style="width: 100.0%; height: 100.0%;">             <b>Pont Poincaré</b><br>             status: ok<br>             Pont Raymond Poincaré, Tunnel de Caluire Intérieur, Montessuy, Caluire-et-Cuire, Lyon, Métropole de Lyon, Rhône, Auvergne-Rhône-Alpes, France métropolitaine, 69300, France             </div>`)[0];
+                popup_e86ae777a851db54a8a719483810a389.setContent(html_093fa7e409fc3770691ce12a2d58ef31);
+            
+        
+
+        marker_74379604d0a462da611de7409737f5e6.bindPopup(popup_e86ae777a851db54a8a719483810a389)
+        ;
+
+        
+    
+    
+            var marker_d5471753943d488804bb0e000f7c867d = L.marker(
+                [45.7986935, 4.8412305],
+                {
+}
+            ).addTo(map_0878ba952456267f4c26a87c213aaadd);
+        
+    
+        var popup_0db86b7566dfc94e589b4f858411b5bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9144f67101172e4d62dd6651c6c7594a = $(`<div id="html_9144f67101172e4d62dd6651c6c7594a" style="width: 100.0%; height: 100.0%;">             <b>Quai Clémenceau/Castellane</b><br>             status: ok_fallback<br>             Montée Castellane, Le Bourg, Caluire-et-Cuire, Lyon, Métropole de Lyon, Rhône, Auvergne-Rhône-Alpes, France métropolitaine, 69300, France             </div>`)[0];
+                popup_0db86b7566dfc94e589b4f858411b5bd.setContent(html_9144f67101172e4d62dd6651c6c7594a);
+            
+        
+
+        marker_d5471753943d488804bb0e000f7c867d.bindPopup(popup_0db86b7566dfc94e589b4f858411b5bd)
+        ;
+
+        
+    
+    
+            var marker_f85dd7a30db90af13d503366cb180d46 = L.marker(
+                [45.7854107, 4.8078344],
+                {
+}
+            ).addTo(map_0878ba952456267f4c26a87c213aaadd);
+        
+    
+        var popup_dabbb7d68ac45f75611e0e2dc940a8aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8babc7a39d160b2dcee6e34dd27a8a2 = $(`<div id="html_f8babc7a39d160b2dcee6e34dd27a8a2" style="width: 100.0%; height: 100.0%;">             <b>Rue de St-Cyr</b><br>             status: ok<br>             Rue de Saint-Cyr, L’Industrie, Vaise, Lyon 9e Arrondissement, Lyon, Métropole de Lyon, Rhône, Auvergne-Rhône-Alpes, France métropolitaine, 69009, France             </div>`)[0];
+                popup_dabbb7d68ac45f75611e0e2dc940a8aa.setContent(html_f8babc7a39d160b2dcee6e34dd27a8a2);
+            
+        
+
+        marker_f85dd7a30db90af13d503366cb180d46.bindPopup(popup_dabbb7d68ac45f75611e0e2dc940a8aa)
+        ;
+
+        
+    
+</script>
+</html>

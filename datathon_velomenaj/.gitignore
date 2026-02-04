@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Spark / Java
+spark-warehouse/
+metastore_db/
+derby.log
+*.class
+*.jar
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+
+# Project Specific
+# Ignorer le dossier de données brutes s'il est recréé
+/data/
+
+# Ignorer les artifacts de merge ou fichiers temporaires
+gold_flow_amenagement_daily_mock/

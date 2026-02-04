@@ -1,0 +1,9 @@
+params:
+  buffer_m: 200
+
+filters:
+  bike_mode_value: "velo"
+
+paths:
+  silver_dir: "data/silver"
+  gold_dir: "data/gold"
