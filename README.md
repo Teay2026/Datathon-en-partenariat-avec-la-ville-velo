@@ -10,7 +10,7 @@ Dans un contexte de transition écologique, le développement du vélo est une p
 **VéloMénaj** est une solution data-driven conçue pour accompagner les décideurs publics. Ce projet dépasse la simple visualisation pour offrir une **intelligence décisionnelle** : il qualifie l'efficacité du réseau actuel et recommande scientifiquement les futures zones d'implantation.
 
 ## 📊 Aperçu de la Solution
-![Interface de Visualisation](dashboard_preview.png)
+![Interface de Visualisation](datathon_velomenaj/dashboard_preview.png)
 *Le dashboard interactif permettant d'explorer les flux, les scores de performance et les zones recommandées.*
 
 ---
